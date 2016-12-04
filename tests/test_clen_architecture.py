@@ -15,7 +15,6 @@ import unittest
 from clen_architecture import clen_architecture
 
 
-
 class TestClen_architecture(unittest.TestCase):
 
     def setUp(self):
