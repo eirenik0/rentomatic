@@ -2,20 +2,20 @@
 # -*- coding: utf-8 -*-
 
 """
-test_clen_architecture
+test_rentomatic
 ----------------------------------
 
-Tests for `clen_architecture` module.
+Tests for `rentomatic` module.
 """
 
 
 import sys
 import unittest
 
-from clen_architecture import clen_architecture
+from rentomatic import rentomatic
 
 
-class TestClen_architecture(unittest.TestCase):
+class Testrentomatic(unittest.TestCase):
 
     def setUp(self):
         pass

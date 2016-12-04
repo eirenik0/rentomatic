@@ -18,23 +18,23 @@ test_requirements = [
 ]
 
 setup(
-    name='clen_architecture',
+    name='rentomatic',
     version='0.1.0',
     description="http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example/",
     long_description=readme + '\n\n' + history,
     author="Serhii Khalymon",
     author_email='sergiykhalimon@gmail.com',
-    url='https://github.com/infernion/clen_architecture',
+    url='https://github.com/infernion/rentomatic',
     packages=[
-        'clen_architecture',
+        'rentomatic',
     ],
-    package_dir={'clen_architecture':
-                 'clen_architecture'},
+    package_dir={'rentomatic':
+                 'rentomatic'},
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='clen_architecture',
+    keywords='rentomatic',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
